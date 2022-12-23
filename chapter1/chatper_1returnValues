@@ -7,4 +7,54 @@ def pay_tax(tax):
 
 to_pay = tax_calculator(10000)
 pay_tax(to_pay)
+
+def add(a,b):
+   return a+b
+
+def multiply(a,b):
+   return a*b
+
+def divide(a,b):
+    return(a/b)
+
+result = add(1, 2)
+print(result)
+result = add(3, 4)
+print(result)
+
+result = multiply(1, 2)
+print(result)
+
+result = divide(10, 2)
+print(result)
+
+
+
+def my_salary_tax(monthly):
+    return monthly*0.9
+ 
+
+def my_real_budget(pay_tax):
+    print("After taxing your remain salary is", pay_tax)
+
+pay_tax = my_salary_tax(10)
+my_real_budget(pay_tax)
+
+def point(a):
+    return a*10
+
+def grade(c):
+    print("here is your grade", c)
+
+# chris = point(10)
+# grade(chris)
+
+chris2 = point(100)
+grade(chris2)
+# def pay_tax(tax):
+#     print("Thank you for paying paying", tax)
+
+
+# to_pay = tax_calculator(10000)
+# pay_tax(to_pay)
      
