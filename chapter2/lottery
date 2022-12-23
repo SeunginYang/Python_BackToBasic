@@ -1,0 +1,16 @@
+from random import randint
+
+#Initialise an empty list that will be used to store the 6 lucky numbers!
+lotteryNumbers = []
+
+for i in range (0,6):
+    number = randint(1,50)        
+    while number in lotteryNumbers:       # ... if it has, pick a new number instead 
+        number = randint(1,50)
+        
+    lotteryNumbers.append(number)     # Now that we have a unique number, let's append it to our list.
+lotteryNumbers.sort()             #Sort the list in ascending order
+
+#Display the list on screen:
+print(">>> Today's lottery numbers are: ") 
+print(lotteryNumbers)
